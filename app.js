@@ -1,4 +1,7 @@
 // import functions and grab DOM elements
+import { renderCandy } from './render-candy.js';
+import { displayCandies } from '/candies-data.js';
+const candyContainerEl = document.getElementById('candy-container');
 
 // initialize global state
 
