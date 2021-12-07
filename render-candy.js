@@ -1,18 +1,21 @@
 export function renderCandy(candy) {
     const div = document.createElement('div');
     // brand
-    const makerDiv = document.createElement('p');
+    const brandDiv = document.createElement('p');
     // eg chocolate, sour, etc
     const typeDiv = document.createElement('p');
+    const makerDiv = document.createElement('p');
 
     div.classList.add('candy-item');
-    makerDiv.classList.add('maker');
+    brandDiv.classList.add('brand');
     typeDiv.classList.add('type');
+    makerDiv.classList.add('maker');
 
-    makerDiv.textContent = candy.maker;
+    brandDiv.textContent = candy.brand;
     typeDiv.textContent = candy.type;
+    makerDiv.textContent = candy.maker;
 
-    div.append(makerDiv, typeDiv);
+    div.append(brandDiv, typeDiv, makerDiv);
 
     return div;
 }

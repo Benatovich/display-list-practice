@@ -1,1 +1,0 @@
-// render list of simple objects
