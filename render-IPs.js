@@ -1,3 +1,3 @@
-export function renderRats(rat) {
+export function renderIPs(IP) {
     const div = document.createElement
 }
