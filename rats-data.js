@@ -1,4 +1,4 @@
-// render list of simple objects
+// render list of objects where one property is a nested object
 
 // export const candies = [
 //     {

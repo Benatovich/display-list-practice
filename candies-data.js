@@ -1,4 +1,4 @@
-// render list of string
+// render list of simple objects
 // create an array of at least three objects (candies). each object should have at least three properties. all objects should have the same properties.
 
 export const candies = [
