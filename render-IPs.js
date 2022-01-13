@@ -21,6 +21,7 @@ export function renderIPs(IP) {
     factionEl.textContent = IP.protagonist.faction;
     equipmentEl.textContent = IP.protagonist.equipment;
 
+    protagonistDiv.append(nameEl, factionEl, equipmentEl);
     div.append(titleEl, genreEl, protagonistDiv);
 
     return div;
